@@ -33,7 +33,7 @@ of cookbook for Racket.
   3. Serve said database using a simple API.
 2. (and more) Scrape this and that other source...
 3. Produce an HTML Front-End to the database
-  - mocking / features of the interface will be through `mocks/**`
+  - mocking / features of the interface will be through `mock-ups/**`
   - the implementation of the interface will be through `templates/**`
   - all the fun of user registration/editing, contribution. You know,
     the kind of stuff that’s popular on the Internet nowadays
@@ -45,11 +45,11 @@ of cookbook for Racket.
 | ./sql | no | SQL either loaded by Racket, or run into a CLI |
 | ./racket | no | Code, written in racket |
 | ./dist | yes | The built product |
-| ./mock | no | Mockups for website and ideas |
-| ./mock/{css,js,html} | no | Probably best that we keep everything in these directories |
+| ./mock-ups | no | Mockups for website and ideas |
+| ./mock-ups/{css,js,html} | no | Probably best that we keep everything in these directories |
 | ./templates | no | Template web site files |
 | ./templates/{css,js,html} | no | |
-| ./scrapings      | HTML scraping from sources - RC to start with (`.gitignore`ed) |
+| ./scrapings      |yes| HTML scraping from sources - RC to start with |
 
 <sup>†</sup>benevolence optional
 ```vim

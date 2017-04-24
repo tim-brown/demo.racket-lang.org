@@ -1,2 +1,7 @@
 scrapings/**
 *.rkt~
+
+mock-ups/html/task-page.html
+.*.swp
+compiled/
+racket/**/download/
